@@ -1,0 +1,41 @@
+/*
+* Main CSS file
+*/
+
+body {
+	font-family: Roboto, "Helvetica Neue", Arial;
+}
+
+#header {
+	font-size: 22px;
+	text-align: center;
+}
+
+a {
+	color: #4A90E2;
+	text-decoration: none;
+}
+
+a:hover {
+	transform: scale(1.1);
+}
+
+.me {
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+.section {
+	
+}
+
+.paraG {
+	font-weight: lighter;
+}
+
+.issue {
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+}

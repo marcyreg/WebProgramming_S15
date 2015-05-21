@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<h1 id="header">Security and Privacy on mmap (client and server sides)</h1>
+		<h2 class="me">Prepared by: <a href="http://marcyreg.github.io/" class="me">Marcy Regalado</a></h2>
+		
+		<h3 class="section">Introduction</h3>
+		<p class="paraG">This assignment calls to test the security of mmap (client and server side) web application developed by <a href="http://mchow01.github.io/">Ming Chow</a> for COMP 20: WebProgramming, Spring 2015. The web application enabled users to provide their location and then gather locations from other students in the class by utilizing the Google Maps API. From others locations, a user could see how far they were in comparison to others in the class; however, this web applicatoin still had vulnerabilities present. This document identifies vulnerabilities and recommendations for strenghtening the web application.</p>
+		<h3 class="section">Methodology</h3> 
+		<p class="paraG">Testing was completed by using with a "black box" method that is only available to the attacker. I ran the website on Firefox and used "Tamper Data", which is a modifer to HTTP/HTTPS headers and post paramerters. Using this tool I was able to find vulnerabiliteis throughout the code. Finally, I also reviewed the code to find mroe logic errors and opportunites for server-side expliotation. </p>
+		<h3 class="section">Abstract of Findings</h3>
+		<p class="paraG">Provide an overview of all the security and privacy issues you identified. This section should be written for non-technical managers who do not have technical expertise and do not have time to read the entire document. Write this section using lay language.</p>
+		<h3 class="section">Issues Found</h3>
+		<p class="paraG">For each issue that you find, document:
+			<h4 class="subSec">1. Cross-Site Scripting</h4>
+			<ul>
+				<li>4.1 Issue (e.g., database injection, really bad programming practice)</li>
+				<li>4.2 Location / page where issue was found</li>
+				<li>4.3 Severity of issue (e.g., low, medium , or high). Justify your answer.</li>
+				<li>4.4 Description of issue. How did you find it? A screenshot of problem is excellent.</li>
+				<li>4.5 Proof of vulnerability. Screenshots are ideal.</li>
+				<li>4.6 Resolution. How did you resolve the issue? Show code if possible.</li>
+			</ul>
+			<h4 class="subSec">1. Cross-Site Scripting</h4>
+			<ul>
+				<li>Affects the GET portion of the API where data injection can occur</li>
+				<li>4.2 Location / page where issue was found</li>
+				<li>4.3 <p class="issue">HIGH</p></li>
+				<li>4.4 Description of issue. How did you find it? A screenshot of problem is excellent.</li>
+				<li>4.5 Proof of vulnerability. Screenshots are ideal.</li>
+				<li>4.6 Resolution. How did you resolve the issue? Show code if possible.</li>
+			</ul>
+		</p>
+		<h3 class="section">Conclusion</h3> 
+		<p class="paraG">You can also list future considerations and recommendations with costs.</p>
+	</body>
+
+</html>

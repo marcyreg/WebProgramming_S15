@@ -1,0 +1,46 @@
+html {
+	height: 100%;
+	font-family: 'Open Sans', "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+h1.text{
+		font-family: "Don Quixote", "Open Sans", "Arial";
+		color: black;
+		font-size: 65px;
+		letter-spacing: 4px;
+		text-align: center;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		text-shadow: 2px 2px #d3d3d3;
+		blur-radius: 2px;
+	}
+p.text{
+	font-family: "Don Quixote", "Open Sans", "Arial";
+	font-size: 35px;
+	font-weight: light;		
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 5%;
+}
+
+#map_canvas{
+	width: 75%;
+	height: 50%;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.marker{
+
+	height: 50%;
+	width: 50%;
+}
